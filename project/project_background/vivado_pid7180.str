@@ -1,0 +1,3275 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 7180
+License: Customer
+
+Current time: 	Fri Jan 11 06:40:34 CST 2019
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 102 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/XILINX/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/XILINX/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	user
+User home directory: C:/Users/user
+User working directory: C:/project_background
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: D:/XILINX/Vivado
+HDI_APPROOT: D:/XILINX/Vivado/2018.2
+RDI_DATADIR: D:/XILINX/Vivado/2018.2/data
+RDI_BINDIR: D:/XILINX/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/XILINX/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/project_background/vivado.log
+Vivado journal file location: 	C:/project_background/vivado.jou
+Engine tmp dir: 	C:/project_background/.Xil/Vivado-7180-DESKTOP-TG1464E
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/XILINX/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/XILINX/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/XILINX/Vivado/2018.2
+XILINX_SDK: D:/XILINX/SDK/2018.2
+XILINX_VIVADO: D:/XILINX/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/XILINX/Vivado/2018.2
+
+
+GUI allocated memory:	276 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 645 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\project_background\project_background.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 60 MB (+59965kb) [00:00:05]
+// [Engine Memory]: 493 MB (+365754kb) [00:00:05]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 82 MB (+20662kb) [00:00:07]
+// [Engine Memory]: 580 MB (+65088kb) [00:00:07]
+// [GUI Memory]: 89 MB (+2845kb) [00:00:08]
+// [Engine Memory]: 612 MB (+3220kb) [00:00:08]
+// [GUI Memory]: 101 MB (+7305kb) [00:00:09]
+// [Engine Memory]: 645 MB (+2749kb) [00:00:09]
+// Tcl Message: open_project C:/project_background/project_background.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Downloads/KeyboardSampleCode/ip'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 45 MB. Current time: 1/11/19 6:40:35 AM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 897.066 ; gain = 151.305 
+// Project name: project_background; location: C:/project_background; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project (project.v)]", 1); // B (D, ck)
+// PAPropertyPanels.initPanels (player1.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project (project.v), player1 : player1 (player1.v)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project (project.v), player1 : player1 (player1.v)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("player1.v", 455, 432); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("player1.v", 1259, 430); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("player1.v", 379, 427); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 562, 424); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 496, 423); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("player1.v", 631, 426); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("player1.v", 1280, 427); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("player1.v", 204, 525); // ce (w, ck)
+selectCodeEditor("player1.v", 319, 519); // ce (w, ck)
+selectCodeEditor("player1.v", 205, 522); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 1321, 426); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 1415, 423); // ce (w, ck)
+selectCodeEditor("player1.v", 1438, 424); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// [Engine Memory]: 678 MB (+801kb) [00:05:46]
+// Elapsed time: 222 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 687 MB. GUI used memory: 48 MB. Current time: 1/11/19 6:46:48 AM CST
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 06:46:51 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 477ms to process. Increasing delay to 2000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 290 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 06:51:42 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 48 MB. Current time: 1/11/19 6:51:43 AM CST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 242 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 06:55:48 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 72 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+// [Engine Memory]: 714 MB (+2185kb) [00:16:38]
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 956.645 ; gain = 2.063 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// [Engine Memory]: 1,325 MB (+602371kb) [00:16:52]
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 13 seconds
+dismissDialog("Open Hardware Target"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,343 MB. GUI used memory: 54 MB. Current time: 1/11/19 6:57:19 AM CST
+// Elapsed time: 27 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ck)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 243 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+// Elapsed time: 37 seconds
+selectCodeEditor("player1.v", 277, 266); // ce (w, ck)
+// Elapsed time: 45 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,366 MB. GUI used memory: 53 MB. Current time: 1/11/19 7:03:19 AM CST
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 07:03:34 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// Tcl Message: close_hw 
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 382ms to process. Increasing delay to 2000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 251 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 07:07:54 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 287 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (Q, ah)
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 07:12:46 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 66 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Open Hardware Target"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 183 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project (project.v), player2 : player2 (player2.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project (project.v), player2 : player2 (player2.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+selectCodeEditor("player2.v", 275, 282); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("player1.v", 478, 355); // ce (w, ck)
+selectCodeEditor("player1.v", 497, 367); // ce (w, ck)
+selectCodeEditor("player1.v", 504, 286); // ce (w, ck)
+selectCodeEditor("player1.v", 652, 320); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("player1.v", 224, 200); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("player1.v", 1314, 196); // ce (w, ck)
+selectCodeEditor("player1.v", 1320, 198); // ce (w, ck)
+selectCodeEditor("player1.v", 100, 198); // ce (w, ck)
+selectCodeEditor("player1.v", 80, 210); // ce (w, ck)
+selectCodeEditor("player1.v", 100, 200); // ce (w, ck)
+selectCodeEditor("player1.v", 101, 199); // ce (w, ck)
+selectCodeEditor("player1.v", 87, 199); // ce (w, ck)
+selectCodeEditor("player1.v", 99, 199); // ce (w, ck)
+selectCodeEditor("player1.v", 99, 199, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player1.v", 622, 202); // ce (w, ck)
+selectCodeEditor("player1.v", 94, 198); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 241, 321); // ce (w, ck)
+selectCodeEditor("player1.v", 260, 313); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// [GUI Memory]: 109 MB (+3150kb) [00:38:23]
+// Elapsed time: 45 seconds
+selectCodeEditor("player1.v", 499, 304); // ce (w, ck)
+selectCodeEditor("player1.v", 524, 308); // ce (w, ck)
+selectCodeEditor("player1.v", 561, 319); // ce (w, ck)
+selectCodeEditor("player1.v", 485, 317); // ce (w, ck)
+selectCodeEditor("player1.v", 591, 317); // ce (w, ck)
+selectCodeEditor("player1.v", 541, 319); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("player1.v", 735, 314); // ce (w, ck)
+// Elapsed time: 204 seconds
+selectCodeEditor("player1.v", 625, 195); // ce (w, ck)
+// Elapsed time: 35 seconds
+selectCodeEditor("player1.v", 1147, 197); // ce (w, ck)
+// [GUI Memory]: 116 MB (+1777kb) [00:43:53]
+// Elapsed time: 20 seconds
+selectCodeEditor("player1.v", 436, 738); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("player1.v", 608, 312); // ce (w, ck)
+selectCodeEditor("player1.v", 601, 315); // ce (w, ck)
+selectCodeEditor("player1.v", 612, 315); // ce (w, ck)
+// Elapsed time: 42 seconds
+selectCodeEditor("player1.v", 1038, 317); // ce (w, ck)
+// Elapsed time: 30 seconds
+selectCodeEditor("player1.v", 946, 315); // ce (w, ck)
+selectCodeEditor("player1.v", 1006, 310); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("player1.v", 908, 314); // ce (w, ck)
+// Elapsed time: 73 seconds
+selectCodeEditor("player1.v", 1060, 313); // ce (w, ck)
+// Elapsed time: 52 seconds
+selectCodeEditor("player1.v", 991, 314); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("player1.v", 1292, 313); // ce (w, ck)
+selectCodeEditor("player1.v", 1227, 314); // ce (w, ck)
+selectCodeEditor("player1.v", 1337, 317); // ce (w, ck)
+selectCodeEditor("player1.v", 1341, 307); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// aj (ck): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (ck)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 11 07:29:08 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 124 MB (+2283kb) [00:48:59]
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 347ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,385 MB. GUI used memory: 54 MB. Current time: 1/11/19 7:33:19 AM CST
+// Elapsed time: 270 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 07:33:39 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 255 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 07:37:57 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 60 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,386 MB. GUI used memory: 77 MB. Current time: 1/11/19 7:38:59 AM CST
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1644.848 ; gain = 0.000 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Open Hardware Target"); // bx (ck)
+// Elapsed time: 17 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 342 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+selectCodeEditor("player1.v", 488, 229); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+selectCodeEditor("player2.v", 501, 410); // ce (w, ck)
+selectCodeEditor("player2.v", 541, 404); // ce (w, ck)
+selectCodeEditor("player2.v", 483, 414); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 165, 368); // ce (w, ck)
+selectCodeEditor("player2.v", 461, 368); // ce (w, ck)
+selectCodeEditor("player2.v", 603, 371); // ce (w, ck)
+selectCodeEditor("player2.v", 752, 365); // ce (w, ck)
+selectCodeEditor("player2.v", 585, 369); // ce (w, ck)
+selectCodeEditor("player2.v", 667, 374); // ce (w, ck)
+// [Engine Memory]: 1,393 MB (+2533kb) [01:06:52]
+// Elapsed time: 125 seconds
+selectCodeEditor("player2.v", 1536, 366); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+selectCodeEditor("player1.v", 521, 353); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+selectCodeEditor("player2.v", 501, 413); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 528, 369); // ce (w, ck)
+selectCodeEditor("player2.v", 581, 367, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ad (aj, Popup.HeavyWeightWindow)
+selectComboBox("FindAndReplaceDialog.ck_取代為：", "player1direct", -1); // JComboBox (ck, FindAndReplaceDialog)
+selectButton("FindAndReplaceDialog.ck_尋找", "尋找"); // JButton (ck, FindAndReplaceDialog)
+// Elapsed time: 11 seconds
+selectCodeEditor("player2.v", 666, 106); // ce (w, ck)
+selectCodeEditor("player2.v", 725, 103, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ad (aj, Popup.HeavyWeightWindow)
+selectComboBox("FindAndReplaceDialog.ck_取代為：", "player1position1", -1); // JComboBox (ck, FindAndReplaceDialog)
+selectButton("FindAndReplaceDialog.ck_尋找", "尋找"); // JButton (ck, FindAndReplaceDialog)
+// Elapsed time: 18 seconds
+selectCodeEditor("player2.v", 760, 106); // ce (w, ck)
+selectCodeEditor("player2.v", 809, 113, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ad (aj, Popup.HeavyWeightWindow)
+selectComboBox("FindAndReplaceDialog.ck_取代為：", "player1position2", -1); // JComboBox (ck, FindAndReplaceDialog)
+selectButton("FindAndReplaceDialog.ck_尋找", "尋找"); // JButton (ck, FindAndReplaceDialog)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 07:50:53 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 394ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 256 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 07:55:11 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 296 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 08:00:10 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 71 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,406 MB. GUI used memory: 60 MB. Current time: 1/11/19 8:01:24 AM CST
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Open Hardware Target"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ck)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 176 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 169, 338); // ce (w, ck)
+selectCodeEditor("player2.v", 653, 303); // ce (w, ck)
+// Elapsed time: 61 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 347, 294); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 68 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 174 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 312 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project (project.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project (project.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 41 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+// Elapsed time: 36 seconds
+selectCodeEditor("player2.v", 950, 220); // ce (w, ck)
+// Elapsed time: 65 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// bx (ck):  Open Hardware Target : addNotify
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Open Hardware Target"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 61 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// n (ck): Close Hardware Target: addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 242 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 794, 285); // ce (w, ck)
+selectCodeEditor("player1.v", 819, 280); // ce (w, ck)
+// Elapsed time: 348 seconds
+selectCodeEditor("player1.v", 697, 107); // ce (w, ck)
+selectCodeEditor("player1.v", 717, 101); // ce (w, ck)
+selectCodeEditor("player1.v", 699, 107); // ce (w, ck)
+selectCodeEditor("player1.v", 719, 100); // ce (w, ck)
+selectCodeEditor("player1.v", 707, 104); // ce (w, ck)
+selectCodeEditor("player1.v", 701, 108); // ce (w, ck)
+selectCodeEditor("player1.v", 703, 108, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player1.v", 711, 105); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,414 MB. GUI used memory: 61 MB. Current time: 1/11/19 8:31:24 AM CST
+// Elapsed time: 103 seconds
+selectCodeEditor("player1.v", 189, 407); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("player1.v", 204, 602); // ce (w, ck)
+selectCodeEditor("player1.v", 363, 607); // ce (w, ck)
+selectCodeEditor("player1.v", 206, 664); // ce (w, ck)
+selectCodeEditor("player1.v", 243, 645); // ce (w, ck)
+selectCodeEditor("player1.v", 316, 604); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("player1.v", 196, 560); // ce (w, ck)
+// Elapsed time: 31 seconds
+selectCodeEditor("player1.v", 199, 125); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("player2.v", 345, 219); // ce (w, ck)
+selectCodeEditor("player2.v", 485, 218); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("player2.v", 270, 312); // ce (w, ck)
+selectCodeEditor("player2.v", 277, 219); // ce (w, ck)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 192, 119); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("player1.v", 322, 297); // ce (w, ck)
+selectCodeEditor("player1.v", 447, 295); // ce (w, ck)
+selectCodeEditor("player1.v", 452, 302); // ce (w, ck)
+selectCodeEditor("player1.v", 582, 291); // ce (w, ck)
+selectCodeEditor("player1.v", 361, 295); // ce (w, ck)
+selectCodeEditor("player1.v", 325, 296); // ce (w, ck)
+selectCodeEditor("player1.v", 322, 296); // ce (w, ck)
+selectCodeEditor("player1.v", 432, 294); // ce (w, ck)
+selectCodeEditor("player1.v", 565, 290); // ce (w, ck)
+selectCodeEditor("player1.v", 701, 297); // ce (w, ck)
+selectCodeEditor("player1.v", 500, 295); // ce (w, ck)
+selectCodeEditor("player1.v", 573, 298); // ce (w, ck)
+selectCodeEditor("player1.v", 706, 295); // ce (w, ck)
+selectCodeEditor("player1.v", 839, 298); // ce (w, ck)
+selectCodeEditor("player1.v", 842, 297); // ce (w, ck)
+selectCodeEditor("player1.v", 914, 297); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("player1.v", 1449, 292); // ce (w, ck)
+selectCodeEditor("player1.v", 1508, 294); // ce (w, ck)
+selectCodeEditor("player1.v", 143, 574); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 83 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 144, 412); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("player2.v", 378, 415); // ce (w, ck)
+selectCodeEditor("player2.v", 399, 396); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("player2.v", 119, 405); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectCodeEditor("player2.v", 284, 202); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 381, 330); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 339, 399); // ce (w, ck)
+selectCodeEditor("player2.v", 364, 381); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 1250, 499); // ce (w, ck)
+selectCodeEditor("player2.v", 1273, 478); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 197, 465); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectCodeEditor("player2.v", 298, 508); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 641, 504); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("player2.v", 149, 262); // ce (w, ck)
+selectCodeEditor("player2.v", 169, 253); // ce (w, ck)
+selectCodeEditor("player2.v", 166, 254, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player2.v", 201, 261); // ce (w, ck)
+selectCodeEditor("player2.v", 175, 262); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("project.v", 499, 403); // ce (w, ck)
+selectCodeEditor("project.v", 508, 288); // ce (w, ck)
+selectCodeEditor("project.v", 681, 211); // ce (w, ck)
+selectCodeEditor("project.v", 793, 219); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("project.v", 224, 197); // ce (w, ck)
+selectCodeEditor("project.v", 84, 230); // ce (w, ck)
+selectCodeEditor("project.v", 227, 196); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("project.v", 238, 272); // ce (w, ck)
+// Elapsed time: 73 seconds
+selectCodeEditor("project.v", 79, 231); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("project.v", 202, 235); // ce (w, ck)
+selectCodeEditor("project.v", 77, 237); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("project.v", 323, 243); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+selectCodeEditor("project.v", 122, 237); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 148, 255); // ce (w, ck)
+selectCodeEditor("player2.v", 154, 259); // ce (w, ck)
+selectCodeEditor("player2.v", 153, 259, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("player2.v", 50, 521); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 161, 519); // ce (w, ck)
+selectCodeEditor("player2.v", 175, 519); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 71, 220); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 75, 350); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 205, 352); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 77, 520); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 173, 523); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 127, 448); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 1030, 445); // ce (w, ck)
+selectCodeEditor("player2.v", 1027, 446); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 201, 15); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+selectCodeEditor("project.v", 232, 204); // ce (w, ck)
+selectCodeEditor("project.v", 217, 217); // ce (w, ck)
+selectCodeEditor("project.v", 239, 257); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'c'); // ce (w, ck)
+selectCodeEditor("project.v", 339, 460); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'v'); // ce (w, ck)
+selectCodeEditor("project.v", 122, 193); // ce (w, ck)
+selectCodeEditor("project.v", 142, 181); // ce (w, ck)
+selectCodeEditor("project.v", 83, 183); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("project.v", 257, 655); // ce (w, ck)
+selectCodeEditor("project.v", 268, 642); // ce (w, ck)
+selectCodeEditor("project.v", 222, 582); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'c'); // ce (w, ck)
+selectCodeEditor("project.v", 314, 497); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'v'); // ce (w, ck)
+selectCodeEditor("project.v", 241, 602); // ce (w, ck)
+selectCodeEditor("project.v", 227, 623); // ce (w, ck)
+selectCodeEditor("project.v", 250, 592); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'c'); // ce (w, ck)
+selectCodeEditor("project.v", 192, 344); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("player2.v", 172, 26); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 196, 12); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 101, 26); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 181, 492); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 165, 376); // ce (w, ck)
+selectCodeEditor("player1.v", 157, 409); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 210, 389); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 224, 173); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 378, 310); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("player1.v", 363, 533); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 275, 239); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("player1.v", 173, 355); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 277, 507); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 283, 507); // ce (w, ck)
+selectCodeEditor("player1.v", 282, 523); // ce (w, ck)
+selectCodeEditor("player1.v", 1496, 535); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("player1.v", 197, 523); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 481, 547); // ce (w, ck)
+selectCodeEditor("player1.v", 433, 554); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 791, 559); // ce (w, ck)
+selectCodeEditor("player1.v", 1342, 560); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 22 seconds
+selectCodeEditor("player1.v", 195, 202); // ce (w, ck)
+selectCodeEditor("player1.v", 206, 198); // ce (w, ck)
+selectCodeEditor("player1.v", 206, 198, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player1.v", 195, 201); // ce (w, ck)
+selectCodeEditor("player1.v", 199, 199); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 740, 206); // ce (w, ck)
+selectCodeEditor("player1.v", 194, 276); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("player2.v", 519, 505); // ce (w, ck)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 76, 273); // ce (w, ck)
+selectCodeEditor("player1.v", 77, 252); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 257); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 74, 277); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 191, 272); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("player1.v", 305, 266); // ce (w, ck)
+// Elapsed time: 129 seconds
+selectCodeEditor("player1.v", 1296, 388); // ce (w, ck)
+selectCodeEditor("player1.v", 1296, 388); // ce (w, ck)
+selectCodeEditor("player1.v", 1297, 388, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player1.v", 1298, 390); // ce (w, ck)
+selectCodeEditor("player1.v", 1307, 391); // ce (w, ck)
+// Elapsed time: 47 seconds
+selectCodeEditor("player1.v", 1359, 444); // ce (w, ck)
+selectCodeEditor("player1.v", 188, 441); // ce (w, ck)
+// Elapsed time: 66 seconds
+selectCodeEditor("player1.v", 1099, 446); // ce (w, ck)
+selectCodeEditor("player1.v", 1092, 443); // ce (w, ck)
+selectCodeEditor("player1.v", 1096, 447); // ce (w, ck)
+selectCodeEditor("player1.v", 771, 447); // ce (w, ck)
+// Elapsed time: 46 seconds
+selectCodeEditor("player1.v", 336, 447); // ce (w, ck)
+selectCodeEditor("player1.v", 634, 448); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("player1.v", 263, 489); // ce (w, ck)
+selectCodeEditor("player1.v", 266, 494); // ce (w, ck)
+selectCodeEditor("player1.v", 200, 204); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 191, 507); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("player2.v", 452, 389); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 373, 505); // ce (w, ck)
+selectCodeEditor("player1.v", 457, 503); // ce (w, ck)
+selectCodeEditor("player1.v", 579, 502); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("player1.v", 705, 511); // ce (w, ck)
+selectCodeEditor("player1.v", 746, 505); // ce (w, ck)
+selectCodeEditor("player1.v", 866, 504); // ce (w, ck)
+selectCodeEditor("player1.v", 989, 507); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 1327, 195); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("player1.v", 1156, 498); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,421 MB. GUI used memory: 60 MB. Current time: 1/11/19 9:01:24 AM CST
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 475, 506); // ce (w, ck)
+selectCodeEditor("player2.v", 533, 511); // ce (w, ck)
+selectCodeEditor("player2.v", 473, 505); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 373, 523); // ce (w, ck)
+// Elapsed time: 43 seconds
+selectCodeEditor("player1.v", 1182, 518); // ce (w, ck)
+// Elapsed time: 30 seconds
+selectCodeEditor("player1.v", 261, 534); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("player1.v", 453, 464); // ce (w, ck)
+selectCodeEditor("player1.v", 434, 474); // ce (w, ck)
+selectCodeEditor("player1.v", 505, 468); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 176, 562); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 337, 544); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("player1.v", 129, 163); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 288, 521); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 124, 517); // ce (w, ck)
+selectCodeEditor("player1.v", 121, 523); // ce (w, ck)
+selectCodeEditor("player1.v", 659, 523); // ce (w, ck)
+selectCodeEditor("player1.v", 663, 524); // ce (w, ck)
+selectCodeEditor("player1.v", 650, 524); // ce (w, ck)
+selectCodeEditor("player1.v", 655, 519); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("player1.v", 423, 518); // ce (w, ck)
+// Elapsed time: 45 seconds
+selectCodeEditor("player1.v", 372, 522); // ce (w, ck)
+selectCodeEditor("player1.v", 200, 500); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectCodeEditor("player1.v", 420, 520); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 197, 502); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 242, 498); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 537); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 206, 499); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectCodeEditor("player1.v", 490, 546); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 213, 588); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 552, 641); // ce (w, ck)
+selectCodeEditor("player1.v", 129, 610); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectCodeEditor("player1.v", 121, 623); // ce (w, ck)
+selectCodeEditor("player1.v", 122, 644); // ce (w, ck)
+selectCodeEditor("player1.v", 399, 595); // ce (w, ck)
+selectCodeEditor("player1.v", 466, 598); // ce (w, ck)
+selectCodeEditor("player1.v", 438, 597); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("player1.v", 1272, 368); // ce (w, ck)
+selectCodeEditor("player1.v", 1266, 359); // ce (w, ck)
+selectCodeEditor("player1.v", 1228, 371); // ce (w, ck)
+selectCodeEditor("player1.v", 1232, 371, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player1.v", 1344, 384); // ce (w, ck)
+selectCodeEditor("player1.v", 1249, 377); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 164, 385); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 270, 396); // ce (w, ck)
+selectCodeEditor("player1.v", 317, 387); // ce (w, ck)
+selectCodeEditor("player1.v", 1214, 389); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 1258, 390); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 296, 409); // ce (w, ck)
+selectCodeEditor("player1.v", 904, 384); // ce (w, ck)
+selectCodeEditor("player1.v", 198, 392); // ce (w, ck)
+selectCodeEditor("player1.v", 901, 387); // ce (w, ck)
+// Elapsed time: 26 seconds
+selectCodeEditor("player1.v", 1228, 425); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 1259, 363); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 1317, 438); // ce (w, ck)
+selectCodeEditor("player1.v", 1353, 409); // ce (w, ck)
+selectCodeEditor("player1.v", 1323, 421); // ce (w, ck)
+selectCodeEditor("player1.v", 1315, 426); // ce (w, ck)
+selectCodeEditor("player1.v", 201, 390); // ce (w, ck)
+selectCodeEditor("player1.v", 903, 388); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// aj (ck): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (ck)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: DG_GRAPH_GENERATED
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 09:10:06 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 397ms to process. Increasing delay to 2000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 257 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 09:14:25 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 262 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,426 MB. GUI used memory: 63 MB. Current time: 1/11/19 9:18:50 AM CST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 09:18:50 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 61 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 33 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// Tcl Message: ERROR: [Labtoolstcl 44-199] No matching targets found on connected servers: localhost Resolution: If needed connect the desired target to a server and use command refresh_hw_server. Then rerun the get_hw_targets command. 
+// Tcl Message: ERROR: [Common 17-39] 'get_hw_targets' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'get_hw_targets' failed due to earlier errors.  
+// ci (ck): Critical Messages: addNotify
+dismissDialog("Open Hardware Target"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (ci)
+dismissDialog("Critical Messages"); // ci (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// Tcl Message: ERROR: [Labtoolstcl 44-199] No matching targets found on connected servers: localhost Resolution: If needed connect the desired target to a server and use command refresh_hw_server. Then rerun the get_hw_targets command. 
+// Tcl Message: ERROR: [Common 17-39] 'get_hw_targets' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'get_hw_targets' failed due to earlier errors.  
+// ci (ck): Critical Messages: addNotify
+dismissDialog("Open Hardware Target"); // bx (ck)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (ci)
+dismissDialog("Critical Messages"); // ci (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_AVAILABLE_TARGETS_ON_SERVER, "Available Targets on Server"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// aM (ck): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, aM)
+// HOptionPane Error: 'A server which has the same host name is already connected. Enter a different valid remote host name or select 'Local Server' before proceeding. (Duplicate Host Name)'
+selectButton("NEXT", "Next >"); // JButton (j, aM)
+selectButton("PAResourceOtoP.OpenTargetWizard_SERVER_WHICH_HAS_SAME_HOST_NAME_OK", "OK"); // JButton (A, G)
+// 'H' command handler elapsed time: 4 seconds
+dismissDialog("Open New Hardware Target"); // aM (ck)
+// Elapsed time: 14 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+dismissDialog("Open Hardware Target"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 233 seconds
+selectCodeEditor("player1.v", 65, 103); // ce (w, ck)
+// Elapsed time: 30 seconds
+selectCodeEditor("player1.v", 424, 200); // ce (w, ck)
+selectCodeEditor("player1.v", 500, 216); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("player1.v", 309, 213); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("player1.v", 387, 292); // ce (w, ck)
+selectCodeEditor("player1.v", 387, 295); // ce (w, ck)
+selectCodeEditor("player1.v", 393, 291); // ce (w, ck)
+selectCodeEditor("player1.v", 386, 295); // ce (w, ck)
+selectCodeEditor("player1.v", 390, 297); // ce (w, ck)
+selectCodeEditor("player1.v", 307, 314); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("player1.v", 507, 312); // ce (w, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// aj (ck): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (ck)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 09:26:54 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 343ms to process. Increasing delay to 2000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 322 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 09:32:18 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 300 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 09:37:20 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 91 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 319 seconds
+selectCodeEditor("player1.v", 67, 213); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 09:44:35 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,440 MB. GUI used memory: 64 MB. Current time: 1/11/19 9:48:50 AM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 421ms to process. Increasing delay to 2000 ms.
+// [Engine Memory]: 1,463 MB (+112kb) [03:08:34]
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 299 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 09:49:36 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 276 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 09:54:15 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 137 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 90 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("player1.v", 964, 201); // ce (w, ck)
+selectCodeEditor("player1.v", 942, 197); // ce (w, ck)
+selectCodeEditor("player1.v", 929, 197); // ce (w, ck)
+// Elapsed time: 70 seconds
+selectCodeEditor("player1.v", 224, 379); // ce (w, ck)
+selectCodeEditor("player1.v", 240, 376); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("player1.v", 374, 502); // ce (w, ck)
+selectCodeEditor("player1.v", 24, 461); // ce (w, ck)
+selectCodeEditor("player1.v", 361, 501); // ce (w, ck)
+selectCodeEditor("player1.v", 346, 510); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("player1.v", 14, 349); // ce (w, ck)
+selectCodeEditor("player1.v", 38, 347); // ce (w, ck)
+selectCodeEditor("player1.v", 17, 353); // ce (w, ck)
+selectCodeEditor("player1.v", 274, 268); // ce (w, ck)
+selectCodeEditor("player1.v", 382, 431); // ce (w, ck)
+selectCodeEditor("player1.v", 385, 419); // ce (w, ck)
+selectCodeEditor("player1.v", 71, 293); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 328, 419); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 312, 614); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, ck)
+selectCodeEditor("player1.v", 180, 348); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 197, 502); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 264, 442); // ce (w, ck)
+selectCodeEditor("player1.v", 334, 469); // ce (w, ck)
+selectCodeEditor("player1.v", 271, 450); // ce (w, ck)
+selectCodeEditor("player1.v", 262, 434); // ce (w, ck)
+selectCodeEditor("player1.v", 274, 438); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 263, 522); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 283, 641); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 286, 518); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 250, 240); // ce (w, ck)
+selectCodeEditor("player1.v", 284, 220); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectCodeEditor("player1.v", 293, 213); // ce (w, ck)
+selectCodeEditor("player1.v", 186, 297); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("player1.v", 125, 620); // ce (w, ck)
+// Elapsed time: 72 seconds
+selectCodeEditor("player1.v", 140, 733); // ce (w, ck)
+selectCodeEditor("player1.v", 161, 627); // ce (w, ck)
+selectCodeEditor("player1.v", 166, 610); // ce (w, ck)
+selectCodeEditor("player1.v", 479, 474); // ce (w, ck)
+selectCodeEditor("player1.v", 626, 351); // ce (w, ck)
+selectCodeEditor("player1.v", 571, 376); // ce (w, ck)
+selectCodeEditor("player1.v", 192, 340); // ce (w, ck)
+selectCodeEditor("player1.v", 228, 325); // ce (w, ck)
+selectCodeEditor("player1.v", 192, 328); // ce (w, ck)
+selectCodeEditor("player1.v", 528, 657); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 213, 656); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 225, 680); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("player1.v", 387, 672); // ce (w, ck)
+// [GUI Memory]: 131 MB (+1173kb) [03:23:55]
+selectCodeEditor("player1.v", 314, 619); // ce (w, ck)
+selectCodeEditor("player1.v", 193, 619); // ce (w, ck)
+selectCodeEditor("player1.v", 537, 498); // ce (w, ck)
+selectCodeEditor("player1.v", 623, 509); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 597, 603); // ce (w, ck)
+selectCodeEditor("player1.v", 418, 605); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("player1.v", 1292, 237); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 3); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectCodeEditor("project.v", 273, 604); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("project.v", 668, 166); // ce (w, ck)
+// Elapsed time: 26 seconds
+selectCodeEditor("project.v", 296, 492); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("project.v", 324, 352); // ce (w, ck)
+selectCodeEditor("project.v", 311, 355); // ce (w, ck)
+// Elapsed time: 44 seconds
+selectCodeEditor("project.v", 301, 352); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("project.v", 435, 347); // ce (w, ck)
+// Elapsed time: 37 seconds
+selectCodeEditor("project.v", 281, 147); // ce (w, ck)
+selectCodeEditor("project.v", 293, 158); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("project.v", 182, 164); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'c'); // ce (w, ck)
+selectCodeEditor("project.v", 291, 150); // ce (w, ck)
+selectCodeEditor("project.v", 287, 161); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("project.v", 181, 456); // ce (w, ck)
+selectCodeEditor("project.v", 219, 441); // ce (w, ck)
+// Elapsed time: 319 seconds
+selectCodeEditor("project.v", 324, 464); // ce (w, ck)
+// Elapsed time: 30 seconds
+typeControlKey((HResource) null, "project.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 10:14:53 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,463 MB. GUI used memory: 60 MB. Current time: 1/11/19 10:18:50 AM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 500ms to process. Increasing delay to 2000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 527 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 10:23:43 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 246 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 10:27:51 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 2); // k (j, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 78 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// Tcl Message: ERROR: [Labtoolstcl 44-199] No matching targets found on connected servers: localhost Resolution: If needed connect the desired target to a server and use command refresh_hw_server. Then rerun the get_hw_targets command. 
+// Tcl Message: ERROR: [Common 17-39] 'get_hw_targets' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'get_hw_targets' failed due to earlier errors.  
+// ci (ck): Critical Messages: addNotify
+dismissDialog("Open Hardware Target"); // bx (ck)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (ci)
+dismissDialog("Critical Messages"); // ci (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 30 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_AVAILABLE_TARGETS_ON_SERVER, "Available Targets on Server"); // aa (aj, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_AVAILABLE_TARGETS_ON_SERVER, "Available Targets on Server"); // aa (aj, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Open Hardware Target"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// n (ck): Close Hardware Target: addNotify
+// Elapsed time: 107 seconds
+dismissDialog("Close Hardware Target"); // n (ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("player1.v", 198, 354); // ce (w, ck)
+selectCodeEditor("player1.v", 320, 494); // ce (w, ck)
+selectCodeEditor("player1.v", 193, 484); // ce (w, ck)
+selectCodeEditor("player1.v", 1296, 486); // ce (w, ck)
+selectCodeEditor("player1.v", 1331, 476); // ce (w, ck)
+selectCodeEditor("player1.v", 1310, 482); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("player1.v", 217, 484); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 220, 561); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 227, 738); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+// Elapsed time: 17 seconds
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 213, 448); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 577); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 483); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 503); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 209, 459); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 208, 486); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 208, 560); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("player1.v", 192, 198); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 44 seconds
+selectCodeEditor("player1.v", 218, 310); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("player1.v", 214, 441); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 214, 408); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 430); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 443); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 208, 458); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 209, 538); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 207, 613); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 213, 579); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 212, 561); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 67 seconds
+selectCodeEditor("player1.v", 187, 330); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 41 seconds
+selectCodeEditor("player1.v", 209, 295); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 209, 424); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 208, 501); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 148, 638); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 207, 601); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 209, 612); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 209, 635); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 196, 657); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 211, 616); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 211, 579); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("player1.v", 194, 541); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 82 seconds
+selectCodeEditor("player1.v", 194, 426); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 256); // ce (w, ck)
+// Elapsed time: 17 seconds
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("player1.v", 194, 199); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 46 seconds
+selectCodeEditor("player1.v", 214, 200); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 199); // ce (w, ck)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 231, 393); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("player1.v", 843, 372); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("player1.v", 698, 373); // ce (w, ck)
+selectCodeEditor("player1.v", 675, 371); // ce (w, ck)
+selectCodeEditor("player1.v", 675, 373); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 238, 385); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("player1.v", 225, 235); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 232, 259); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 501); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 528); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 461); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 232, 483); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 479); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 231, 504); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 620); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 639); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 629); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 654); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 213, 593); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 229, 621); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 694); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 226, 714); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 618); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 228, 639); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectCodeEditor("player1.v", 220, 465); // ce (w, ck)
+selectCodeEditor("player1.v", 201, 489); // ce (w, ck)
+selectCodeEditor("player1.v", 212, 486); // ce (w, ck)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("player1.v", 687, 467); // ce (w, ck)
+// Elapsed time: 29 seconds
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 29 seconds
+selectCodeEditor("player1.v", 209, 295); // ce (w, ck)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 331); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 749, 331); // ce (w, ck)
+selectCodeEditor("player1.v", 753, 331, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player1.v", 217, 332); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectCodeEditor("player1.v", 173, 346); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 465); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 224, 485); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 220, 597); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 229, 621); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 219, 273); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 498, 736); // ce (w, ck)
+selectCodeEditor("player1.v", 227, 300); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 406); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 424); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 482); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 226, 500); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 617); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 637); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 637); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 573); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 240, 602); // ce (w, ck)
+selectCodeEditor("player1.v", 232, 602); // ce (w, ck)
+selectCodeEditor("player1.v", 227, 593); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 596); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 226, 613); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 214, 558); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 580); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,463 MB. GUI used memory: 63 MB. Current time: 1/11/19 10:48:50 AM CST
+// Elapsed time: 19 seconds
+selectCodeEditor("player1.v", 215, 351); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 207, 367); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 1099, 390); // ce (w, ck)
+selectCodeEditor("player1.v", 1158, 363); // ce (w, ck)
+selectCodeEditor("player1.v", 1170, 342); // ce (w, ck)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 3); // k (j, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("project.v", 94, 252); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("project.v", 170, 507); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("project.v", 306, 446); // ce (w, ck)
+selectCodeEditor("project.v", 273, 466); // ce (w, ck)
+// Elapsed time: 62 seconds
+selectCodeEditor("project.v", 244, 467); // ce (w, ck)
+selectCodeEditor("project.v", 178, 494); // ce (w, ck)
+selectCodeEditor("project.v", 121, 465); // ce (w, ck)
+selectCodeEditor("project.v", 115, 482); // ce (w, ck)
+typeControlKey((HResource) null, "project.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 10:51:52 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectCodeEditor("project.v", 1398, 364); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 375ms to process. Increasing delay to 2000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 268 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 10:56:25 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 248 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 11:00:36 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 63 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1717.672 ; gain = 0.000 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+dismissDialog("Open Hardware Target"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 158 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 1); // k (j, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("player1.v", 1218, 100); // ce (w, ck)
+selectCodeEditor("player1.v", 1216, 117); // ce (w, ck)
+selectCodeEditor("player1.v", 1191, 106); // ce (w, ck)
+selectCodeEditor("player1.v", 1195, 102); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("player1.v", 216, 309); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("player1.v", 1165, 311); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("player1.v", 192, 162); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("player1.v", 215, 311); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 235); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 391); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 214, 311); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 214, 392); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("player1.v", 218, 238); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("player1.v", 162, 103); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 220, 163); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 194, 389); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 390); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 440); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 393); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 212, 441); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 445); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("player1.v", 192, 235); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 188, 296); // ce (w, ck)
+selectCodeEditor("player1.v", 198, 295); // ce (w, ck)
+selectCodeEditor("player1.v", 193, 294); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 429, 487); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 356); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 408); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 410); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 408); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 463); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("player1.v", 193, 109); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 292); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 426); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 450); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 214, 406); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 372); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 159, 332); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 152, 360); // ce (w, ck)
+selectCodeEditor("player1.v", 127, 367); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectCodeEditor("player1.v", 221, 121); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("player1.v", 195, 143); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 207, 158); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("player1.v", 220, 423); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 442); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 238); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 255); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 390); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 409); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 316); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 332); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 224, 296); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 231, 315); // ce (w, ck)
+selectCodeEditor("player1.v", 236, 315); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 389); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 405); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("player1.v", 200, 219); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 210, 244); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 214, 335); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 295); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 234, 310); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 224, 350); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 372); // ce (w, ck)
+selectCodeEditor("player1.v", 234, 373); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 351); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 229, 371); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 296); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 233, 309); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 408); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 429); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 219, 403); // ce (w, ck)
+selectCodeEditor("player1.v", 226, 404); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 410); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 423); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("player1.v", 214, 349); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 91, 369); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 370); // ce (w, ck)
+selectCodeEditor("player1.v", 194, 347); // ce (w, ck)
+selectCodeEditor("player1.v", 200, 353); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 210, 385); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 299); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 234, 329); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 290); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 233, 337); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 409); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 445); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 408); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 451); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 135, 348); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 234, 391); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("player1.v", 197, 331); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 211, 375); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 239, 329); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 312); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 229, 351); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 220, 388); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 233, 427); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 220, 351); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 385); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 427); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 234, 406); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 338); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 232, 373); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 293); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 231, 330); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 24 seconds
+selectCodeEditor("player1.v", 212, 160); // ce (w, ck)
+// Elapsed time: 28 seconds
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("player1.v", 192, 204); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 210, 353); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 337); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,472 MB. GUI used memory: 66 MB. Current time: 1/11/19 11:18:50 AM CST
+selectCodeEditor("player1.v", 214, 372); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 407); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 213, 447); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 313); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("player1.v", 190, 223); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 388); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 220, 447); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 386); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 219, 283); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 272); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 334); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("player1.v", 219, 124); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 212, 295); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 220, 353); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 294); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 294); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 384, 489); // ce (w, ck)
+selectCodeEditor("player1.v", 214, 239); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 214, 404); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("player1.v", 191, 319); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 212, 334); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 295); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 428); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 220); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 212, 240); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 215, 363); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectCodeEditor("player1.v", 135, 353); // ce (w, ck)
+selectCodeEditor("player1.v", 216, 360); // ce (w, ck)
+selectCodeEditor("player1.v", 148, 349); // ce (w, ck)
+selectCodeEditor("player1.v", 141, 355); // ce (w, ck)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("player1.v", 191, 175); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 331); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectCodeEditor("player1.v", 200, 337); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 211, 348); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("player1.v", 227, 276); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 234, 292); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 315); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 225, 334); // ce (w, ck)
+selectCodeEditor("player1.v", 234, 331); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 219, 349); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 233, 365); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 386); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 236, 348); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 320); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 238, 330); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 183); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 201); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("player1.v", 205, 376); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 208, 390); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 334); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 237, 351); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 217, 393); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 388); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 228, 413); // ce (w, ck)
+selectCodeEditor("player1.v", 239, 413); // ce (w, ck)
+selectCodeEditor("player1.v", 229, 404); // ce (w, ck)
+selectCodeEditor("player1.v", 233, 404, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player1.v", 240, 416); // ce (w, ck)
+selectCodeEditor("player1.v", 232, 411); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 225, 387); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 232, 408); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 281); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 233, 297); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 388); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 229, 407); // ce (w, ck)
+selectCodeEditor("player1.v", 239, 407); // ce (w, ck)
+selectCodeEditor("player1.v", 231, 406); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 220, 331); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 355); // ce (w, ck)
+selectCodeEditor("player1.v", 236, 355); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("player1.v", 241, 160); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 237, 176); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 221, 265); // ce (w, ck)
+selectCodeEditor("player1.v", 225, 272); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 231, 311); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 219, 446); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 231, 430); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 218, 332); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 235, 370); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 281); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 236, 313); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 225, 273); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 239, 313); // ce (w, ck)
+selectCodeEditor("player1.v", 236, 313); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 224, 390); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 236, 312); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("player1.v", 197, 389); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 208, 431); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 222, 310); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 231, 356); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 333); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 238, 372); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 296); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 232, 335); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 223, 315); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 230, 356); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 219, 385); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 237, 311); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 219, 293); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectCodeEditor("player1.v", 233, 331); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'v'); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 11:28:08 2019] Launched synth_1... Run output will be captured here: C:/project_background/project_background.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 62 MB. Current time: 1/11/19 11:28:10 AM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 333ms to process. Increasing delay to 2000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 294 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Jan 11 11:33:05 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 287 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 11 11:37:53 2019] Launched impl_1... Run output will be captured here: C:/project_background/project_background.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 64 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // aa (aj, ck)
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183711444A,PARAM.FREQUENCY:15000000"); // ad (ck)
+// bx (ck):  Open Hardware Target : addNotify
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1739.844 ; gain = 0.000 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183711444A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Open Hardware Target"); // bx (ck)
+// Elapsed time: 31 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/project_background/project_background.runs/impl_1/project.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 58 seconds
+selectCodeEditor("player1.v", 451, 390, false, false, true, false, false); // ce (w, ck) - Alt Key
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183711444A 
+// n (ck): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 91 seconds
+dismissDialog("Close Hardware Target"); // n (ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+selectCodeEditor("player1.v", 1537, 106); // ce (w, ck)
+selectCodeEditor("player1.v", 545, 279); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 174, 491); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+// Elapsed time: 44 seconds
+selectCodeEditor("project.v", 226, 578); // ce (w, ck)
+// Elapsed time: 37 seconds
+selectCodeEditor("project.v", 298, 495); // ce (w, ck)
+selectCodeEditor("project.v", 179, 503); // ce (w, ck)
+selectCodeEditor("project.v", 175, 502); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 238, 519); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 296, 370); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 264, 518); // ce (w, ck)
+selectCodeEditor("player1.v", 289, 501); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 32, 615); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 704, 217); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 704, 330); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 193, 339); // ce (w, ck)
+selectCodeEditor("player1.v", 257, 332); // ce (w, ck)
+selectCodeEditor("player1.v", 182, 577); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 88, 512); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 261, 494); // ce (w, ck)
+selectCodeEditor("player2.v", 276, 476); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 291, 563); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 282, 594); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 312, 565); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 235, 505); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 231, 488); // ce (w, ck)
+selectCodeEditor("player1.v", 275, 476); // ce (w, ck)
+selectCodeEditor("player1.v", 234, 480); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 50, 527); // ce (w, ck)
+selectCodeEditor("player2.v", 127, 522); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 139 MB (+1637kb) [05:07:21]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("player1.v", 179, 601); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 187, 575); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 169, 486); // ce (w, ck)
+selectCodeEditor("player2.v", 174, 486); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("player2.v", 191, 566); // ce (w, ck)
+selectCodeEditor("player2.v", 184, 676); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 1173, 463); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 1274, 537); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 280, 563); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// Elapsed time: 50 seconds
+selectCodeEditor("player1.v", 366, 335); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("player1.v", 344, 411); // ce (w, ck)
+selectCodeEditor("player1.v", 354, 332); // ce (w, ck)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 193, 216); // ce (w, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 193, 207); // ce (w, ck)
+selectCodeEditor("player2.v", 196, 221); // ce (w, ck)
+selectCodeEditor("player2.v", 195, 222, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("player2.v", 197, 222); // ce (w, ck)
+selectCodeEditor("player2.v", 194, 219); // ce (w, ck)
+selectCodeEditor("player2.v", 195, 217); // ce (w, ck)
+selectCodeEditor("player2.v", 927, 220); // ce (w, ck)
+selectCodeEditor("player2.v", 235, 212); // ce (w, ck)
+selectCodeEditor("player2.v", 241, 213); // ce (w, ck)
+// Elapsed time: 26 seconds
+selectCodeEditor("player2.v", 452, 528); // ce (w, ck)
+// Elapsed time: 41 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "project.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectCodeEditor("player2.v", 203, 355); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("player2.v", 1390, 332); // ce (w, ck)
+selectCodeEditor("player2.v", 1365, 344); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+// [GUI Memory]: 149 MB (+2609kb) [05:16:58]
+// Elapsed time: 17 seconds
+selectCodeEditor("player1.v", 664, 501); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("player1.v", 790, 584); // ce (w, ck)
+selectCodeEditor("player1.v", 282, 507); // ce (w, ck)
+selectCodeEditor("player1.v", 297, 506); // ce (w, ck)
+selectCodeEditor("player1.v", 285, 506); // ce (w, ck)
+selectCodeEditor("player1.v", 665, 503); // ce (w, ck)
+selectCodeEditor("player1.v", 590, 501); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,495 MB. GUI used memory: 68 MB. Current time: 1/11/19 11:58:10 AM CST
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("player2.v", 376, 364); // ce (w, ck)
+// Elapsed time: 51 seconds
+selectCodeEditor("player2.v", 196, 514); // ce (w, ck)
+selectCodeEditor("player2.v", 180, 545); // ce (w, ck)
+selectCodeEditor("player2.v", 191, 539); // ce (w, ck)
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player1.v", 0); // k (j, ck)
+selectCodeEditor("player1.v", 596, 389); // ce (w, ck)
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "player1.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "player2.v", 1); // k (j, ck)
+typeControlKey((HResource) null, "player2.v", 'v'); // ce (w, ck)
+selectCodeEditor("player2.v", 366, 543); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ck)

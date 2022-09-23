@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1547063200">
+  <File Type="ROUTE-PWR" Name="player2control_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="player2control.tcl"/>
+  <File Type="BITSTR-BMM" Name="player2control_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="player2control_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="player2control_reports.tcl"/>
+  <File Type="OPT-DCP" Name="player2control_opt.dcp"/>
+  <File Type="OPT-DRC" Name="player2control_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="player2control.hwdef"/>
+  <File Type="PWROPT-DCP" Name="player2control_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="player2control_placed.dcp"/>
+  <File Type="PLACE-IO" Name="player2control_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="player2control_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="player2control_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="player2control_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="player2control_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="player2control.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="player2control_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="player2control.bin"/>
+  <File Type="PHYSOPT-DCP" Name="player2control_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="player2control.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="player2control_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="player2control_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="player2control_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="player2control_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="player2control_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="player2control_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="player2control.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="player2control_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="player2control.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="player2control_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="player2control_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="player2control.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="player2control_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="player2control_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="player2control_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="player2control_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="player2control_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="player2control_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="player2control_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="player2control.vdi"/>
+  <File Type="ROUTE-BUS-SKEW" Name="player2control_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="player2control_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="player2control_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="player2control_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="player2control_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="player2control.bit"/>
+  <File Type="BITSTR-RBT" Name="player2control.rbt"/>
+  <File Type="BITSTR-NKY" Name="player2control.nky"/>
+  <File Type="BG-DRC" Name="player2control.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/KeyboardSampleCode/KeyboardDecoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Users/user/Downloads/KeyboardSampleCode/KeyboardDecoder.v"/>
+        <Attr Name="ImportTime" Val="1478675842"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/KeyboardSampleCode/OnePulse.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Users/user/Downloads/KeyboardSampleCode/OnePulse.v"/>
+        <Attr Name="ImportTime" Val="1478675842"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/player2control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="player2control"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/KeyboardSampleCode/KeyboardConstraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Users/user/Downloads/KeyboardSampleCode/KeyboardConstraints.xdc"/>
+        <Attr Name="ImportTime" Val="1478675840"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="KeyboardCtrl_0"/>
+</GenRun>

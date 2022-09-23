@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jan 11 13:16:29 2019
+# Process ID: 9348
+# Current directory: E:/player2control
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9236 E:\player2control\player2control.xpr
+# Log file: E:/player2control/vivado.log
+# Journal file: E:/player2control\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/player2control/player2control.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/User/Desktop/player2control' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/Users/user/Downloads/KeyboardSampleCode/ip', nor could it be found using path 'C:/Users/User/Desktop/Users/user/Downloads/KeyboardSampleCode/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Users/user/Downloads/KeyboardSampleCode/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'KeyboardCtrl_0' is locked:
+* IP definition 'KeyboardCtrl (1.0)' for IP 'KeyboardCtrl_0' (customized with software release 2018.2) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 880.965 ; gain = 151.246
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 11 13:17:27 2019...

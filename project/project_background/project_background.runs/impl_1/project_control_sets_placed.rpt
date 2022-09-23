@@ -1,0 +1,114 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jan 11 16:55:58 2019
+| Host         : DESKTOP-TG1464E running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file project_control_sets_placed.rpt
+| Design       : project
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    47 |
+| Unused register locations in slices containing registers |   142 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            5 |
+|      8 |            3 |
+|     10 |            5 |
+|    16+ |           34 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             222 |           35 |
+| No           | No                    | Yes                    |             328 |           66 |
+| No           | Yes                   | No                     |              42 |           11 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             864 |          209 |
+| Yes          | Yes                   | No                     |              26 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+---------------------------------------------------+-------------------------------+------------------+----------------+
+|       Clock Signal      |                   Enable Signal                   |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++-------------------------+---------------------------------------------------+-------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG          |                                                   | key_de/position1_reg[10]_rep  |                2 |              4 |
+|  clk_IBUF_BUFG          | player2/fireclkcount[17]_i_1__0_n_0               | key_de/AR[0]                  |                2 |              4 |
+|  clk_IBUF_BUFG          | player1/firestate[1]_i_1_n_0                      | key_de/AR[0]                  |                2 |              4 |
+|  clk_IBUF_BUFG          | player2/fireposition2[10]_i_1__0_n_0              | key_de/count1_reg[2]_rep[0]   |                1 |              4 |
+|  clk_25MHz_BUFG         |                                                   | rst_IBUF                      |                2 |              4 |
+|  seven/clkdiv13/CLK     |                                                   |                               |                1 |              8 |
+|  clk_IBUF_BUFG          | key_de/inst/inst/Ps2Interface_i/bits_count        | rst_IBUF                      |                1 |              8 |
+|  clk_IBUF_BUFG          | player1/count1[4]_i_1_n_0                         | key_de/position1_reg[10]_rep  |                1 |              8 |
+|  clk_IBUF_BUFG          | player2/count1[4]_i_1__0_n_0                      | key_de/position1_reg[10]_rep  |                3 |             10 |
+|  clk_IBUF_BUFG          | key_de/key_down0                                  | rst_IBUF                      |                3 |             10 |
+|  clk_IBUF_BUFG          | player1/count1[4]_i_1_n_0                         | key_de/AR[0]                  |                2 |             10 |
+|  clk_IBUF_BUFG          | player1/state[4]_i_1_n_0                          | key_de/AR[0]                  |                5 |             10 |
+|  clk_IBUF_BUFG          | player2/state[4]_i_1__0_n_0                       | key_de/AR[0]                  |                5 |             10 |
+|  clk_IBUF_BUFG          | key_de/inst/inst/Ps2Interface_i/rx_finish         | rst_IBUF                      |                1 |             16 |
+|  clk_IBUF_BUFG          |                                                   | key_de/AR[0]                  |                6 |             16 |
+|  clk_IBUF_BUFG          | key_de/inst/inst/Ps2Interface_i/rx_valid          | rst_IBUF                      |                2 |             16 |
+|  clk_IBUF_BUFG          | player2/count1[4]_i_1__0_n_0                      | key_de/count1_reg[2]_rep[0]   |                3 |             16 |
+|  music/clock_22/CLK     |                                                   | rst_IBUF                      |                3 |             18 |
+|  clk_IBUF_BUFG          | player1/position1[10]_i_1_n_0                     | key_de/AR[0]                  |                6 |             18 |
+|  clk_IBUF_BUFG          | player2/fireposition2[10]_i_1__0_n_0              | key_de/position1_reg[10]_rep  |                5 |             18 |
+|  clk_IBUF_BUFG          | player2/position1[10]_i_1__0_n_0                  | key_de/AR[0]                  |                6 |             18 |
+|  clk_wiz_0_inst/O243[1] |                                                   | rst_IBUF                      |                4 |             20 |
+|  clk_IBUF_BUFG          | key_de/key                                        | rst_IBUF                      |                4 |             20 |
+|  clk_IBUF_BUFG          | player1/position1[10]_i_1_n_0                     | key_de/position1_reg[10]_rep  |                8 |             20 |
+|  clk_IBUF_BUFG          | key_de/inst/inst/Ps2Interface_i/frame[10]_i_1_n_0 | rst_IBUF                      |                3 |             22 |
+|  clk_IBUF_BUFG          | player1/fireposition1[10]_i_1__0_n_0              | key_de/position1_reg[10]_rep  |                7 |             22 |
+|  clk_IBUF_BUFG          | player1/fireposition2[10]_i_1_n_0                 | key_de/count1_reg[2]_rep[0]   |                6 |             22 |
+|  clk_IBUF_BUFG          | player2/fireposition1[10]_i_1_n_0                 | key_de/AR[0]                  |                6 |             22 |
+|  clk_IBUF_BUFG          | player2/position2[10]_i_1_n_0                     | key_de/position1_reg[10]_rep  |               11 |             22 |
+|  music/Usc/Q[1]         |                                                   | rst_IBUF                      |                6 |             24 |
+|  clk_25MHz_BUFG         | vga_inst/line_cnt                                 | vga_inst/line_cnt[9]_i_1_n_0  |                4 |             26 |
+|  clk_IBUF_BUFG          | player2/position1[10]_i_1__0_n_0                  | key_de/position1_reg[10]_rep  |               10 |             28 |
+|  clk_IBUF_BUFG          | led[7]_i_1_n_0                                    | rst_IBUF                      |                5 |             32 |
+|  clk_IBUF_BUFG          | led[15]_i_1_n_0                                   | rst_IBUF                      |                4 |             32 |
+|  clk_IBUF_BUFG          | player1/firestate[1]_i_1_n_0                      | key_de/position1_reg[10]_rep  |                4 |             36 |
+|  clk_IBUF_BUFG          | player2/fireclkcount[17]_i_1__0_n_0               | key_de/count1_reg[2]_rep[0]   |                5 |             36 |
+|  clk_25MHz_BUFG         |                                                   | vga_inst/pixel_cnt[9]_i_1_n_0 |                9 |             38 |
+|  clk_IBUF_BUFG          | player1/position2_reg[10]_i_1_n_0                 | key_de/position1_reg[10]_rep  |               13 |             40 |
+|  clk_25MHz_BUFG         |                                                   |                               |               11 |             44 |
+|  clk_IBUF_BUFG          | player1/clkcount[23]_i_1_n_0                      | key_de/AR[0]                  |                5 |             48 |
+|  clk_IBUF_BUFG          | player2/clkcount[23]_i_1__0_n_0                   | key_de/AR[0]                  |               13 |             48 |
+|  clk_IBUF_BUFG          | clkcount1[25]_i_1_n_0                             | rst_IBUF                      |                5 |             52 |
+|  clk_IBUF_BUFG          | next_clkcount2                                    | rst_IBUF                      |                8 |             52 |
+|  clk_IBUF_BUFG          | player1/position2_reg[10]_i_1_n_0                 | key_de/count1_reg[2]_rep[0]   |               16 |             60 |
+|  clk_IBUF_BUFG          | player2/position2[10]_i_1_n_0                     | key_de/count1_reg[2]_rep[0]   |               28 |             70 |
+|  clk_IBUF_BUFG          |                                                   |                               |               23 |            170 |
+|  clk_IBUF_BUFG          |                                                   | rst_IBUF                      |               45 |            246 |
++-------------------------+---------------------------------------------------+-------------------------------+------------------+----------------+
+
+
